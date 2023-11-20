@@ -28,3 +28,7 @@ bin/
 ### Mac OS ###
 .DS_Store
 .idea
+
+PASSWORD=root;
+PATH=jdbc:postgresql://localhost:5432/library_management;
+USERNAME=postgres

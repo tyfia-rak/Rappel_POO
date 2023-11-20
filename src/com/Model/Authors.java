@@ -6,6 +6,10 @@ public class Authors {
     private  boolean sex;
 
     public Authors() {
+        super();
+    }
+
+    public Authors(int id, String name, boolean sex) {
         this.id = id;
         this.name = name;
         this.sex = sex;

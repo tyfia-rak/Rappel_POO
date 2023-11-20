@@ -83,4 +83,11 @@ public class AuthorsCrudOperations implements CrudOperations<Authors> {
         }
         return toDelete;
     }
+
+    public static void main(String[] args) {
+        AuthorsCrudOperations AuthorsCrudOperations = new AuthorsCrudOperations();
+
+        List<Authors> allAuthors = AuthorsCrudOperations.findAll();
+        System.out.println("All Authors: " + allAuthors);
+    }
 }
